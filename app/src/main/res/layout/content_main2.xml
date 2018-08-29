@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cocacola"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#0d0dbb"
+        android:text="COCA-COLA"/>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:id="@+id/et43"
+            android:layout_margin="15dp"
+            android:text="Coca-Cola Zero Sugar, also called Coke Zero Sugar, is a diet cola produced by The Coca-Cola Company. In some countries it is sold as Coca-Cola No Sugar. Coca-Cola Zero Sugar replaced an earlier drink, known as Coca-Cola Zero and Coke Zero, which was similarly a no-calorie cola. Many fans of Coke Zero were furious about the change."
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            />
+    </ScrollView>
+
+</LinearLayout>

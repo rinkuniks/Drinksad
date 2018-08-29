@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/monster"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#0d0dbb"
+        android:text="MONSTER"/>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:id="@+id/et43"
+            android:layout_margin="15dp"
+            android:text="Monster Beverage Corporation is an American beverage company that manufactures energy drinks including Monster Energy, Relentless and Burn.NASCAR announced on December 1, 2016 a multi-year deal that will make Monster Energy only the third entitlement sponsor in its premier series history.As of May 2012, Monster held nearly 35% of the $31.9 billion US energy drink market."
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            />
+    </ScrollView>
+
+</LinearLayout>

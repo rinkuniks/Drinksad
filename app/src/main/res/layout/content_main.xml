@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:background="@drawable/back"
+    android:id="@+id/main"
+    tools:showIn="@layout/app_bar_main"
+    tools:ignore="NamespaceTypo">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iview1"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="0.3"
+            android:src="@drawable/cocacola" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="COCA-COLA"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#ff0000"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Diet Coke"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#0a129c"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iview2"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="0.3"
+                android:src="@drawable/thumsup" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:id="@+id/et21"
+                    android:text="THUMBS-UP"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff0000"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:id="@+id/et22"
+                    android:text="Strong"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#0a129c"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll3"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iview3"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="0.3"
+                android:src="@drawable/marinda" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:id="@+id/et31"
+                    android:text="MARINDA"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff0000"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:id="@+id/et32"
+                    android:text="Orangy"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#0a129c"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll4"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iview4"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="0.3"
+                android:src="@drawable/limca" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:id="@+id/et41"
+                    android:text="LIMCA"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff0000"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:id="@+id/et42"
+                    android:text="Lemony"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#0a129c"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll5"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iview5"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="0.3"
+                android:src="@drawable/dew" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:id="@+id/et51"
+                    android:text="MOUNTAIN-DEW"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff0000"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:id="@+id/et52"
+                    android:text="Fizzy Dew"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#0a129c"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll6"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iview6"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="0.3"
+                android:src="@drawable/redbull" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:id="@+id/et61"
+                    android:text="RED-BULL"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff0000"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:id="@+id/et62"
+                    android:text="Energy Drink"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#0a129c"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll7"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iview7"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="0.3"
+                android:src="@drawable/sting" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:id="@+id/et71"
+                    android:text="STING"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff0000"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:id="@+id/et72"
+                    android:text="Energy Drink"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#0a129c"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll8"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iview8"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="0.3"
+                android:src="@drawable/monster" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:id="@+id/et81"
+                    android:text="MONSTER"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff0000"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:id="@+id/et82"
+                    android:text="Energy Buster"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#0a129c"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll9"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iview9"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="0.3"
+                android:src="@drawable/slice" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:id="@+id/et91"
+                    android:text="SLICE"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff0000"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:id="@+id/et92"
+                    android:text="Mango Drink"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#0a129c"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll10"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iview10"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="0.3"
+                android:src="@drawable/sprite" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="SPRITE"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff0000"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Lemon Soda"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#0a129c"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/adview"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

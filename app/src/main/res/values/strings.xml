@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_header_title">Drinks</string>
+    <string name="nav_header_subtitle">www.drinks.com</string>
+    <string name="nav_header_desc"></string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">DRINKS</string>
+    <string name="title_activity_main2">COCA-COLA</string>
+    <string name="title_activity_main3">THUMS-UP</string>
+    <string name="title_activity_main4">MARINDA</string>
+    <string name="title_activity_main5">LIMCA</string>
+    <string name="title_activity_main6">MOUNTAIN-DEW</string>
+    <string name="title_activity_main7">RED-BULL</string>
+    <string name="title_activity_main8">STING</string>
+    <string name="title_activity_main9">MONSTER</string>
+    <string name="title_activity_main10">SLICE</string>
+    <string name="title_activity_main11">SPRITE</string>
+    <string name="navigation_drawer_open"></string>
+    <string name="navigation_drawer_close"></string>
+</resources>
